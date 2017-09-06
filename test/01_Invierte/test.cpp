@@ -2,6 +2,7 @@
 #include "gtest/gtest.h"
 #include "../../01_Invierte/fnInvierte.h"
 #include "../../Lista/Lista.h"
+#include <stdint.h>
 
 TEST(test_01_Invierte, Invertir50) {
     Lista<uint8_t> l;
